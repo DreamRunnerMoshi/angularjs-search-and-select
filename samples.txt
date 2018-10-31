@@ -1,0 +1,10 @@
+Usages:
+
+<searchandselect selectedmodel="assist"
+    values="doctors"
+    displaykey="['Name','Designation']"
+    valuekey="Id"
+    totalrecords = "assists.length"
+    onselect="methodToCalback()" -- onselect cannot pass variable></searchandselect >
+
+doctors = [{Name:'John Doe',Designation:'MBBS' }]
